@@ -6,7 +6,43 @@
     <description>Recent content in Posts on Mulan 木兰</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 06 Mar 2021 02:14:23 +0800</lastBuildDate><atom:link href="https://jyi32852.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 31 Jul 2021 19:17:58 +0800</lastBuildDate><atom:link href="https://jyi32852.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Second</title>
+      <link>https://jyi32852.github.io/post/second/</link>
+      <pubDate>Sat, 31 Jul 2021 19:17:58 +0800</pubDate>
+      
+      <guid>https://jyi32852.github.io/post/second/</guid>
+      <description>https://www.bilibili.com/video/av51574688
+一、安装（以Windows为例）
+Hugo官方github release下载
+用 hugo version指令检查安装情况
+二、创建网站
+指令：hugo new site xxx
+xxx为自定义网站名即网站根目录名
+三、设置主题
+https://themes.gohugo.io/
+选择主题，根据说明clone主题。指令：git clone
+在themes目录下能看到下载好的主题
+四、本地启动
+指令：hugo server -t xxx &amp;ndash;buildDrafts
+xxx为下载好要使用的主题名
+本地访问http://localhost:1313/ 可查看
+五、新建文章
+指令：hugo new post/xxx.md
+xxx为文章标题
+使用Visual Studio Code打开网站目录中的文章md文件并编辑文章标题、内容等，保存。
+再次预览，指令如步骤四：hugo server -t xxx &amp;ndash;buildDrafts
+六、部署到github远端
+此处跳过仓库创建步骤
+指令：hugo &amp;ndash;theme=xxx &amp;ndash;baseUrl=“https://XXX.github.io” &amp;ndash;buildDrafts
+xxx为使用的主题名
+XXX为个人github仓库名
+git初始化
+指令：git init
+指令：git add *</description>
+    </item>
+    
     <item>
       <title>The first blog</title>
       <link>https://jyi32852.github.io/post/first/</link>
