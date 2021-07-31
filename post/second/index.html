@@ -12,7 +12,7 @@
 <meta name="twitter:title" content="Second"/>
 <meta name="twitter:description" content="https://www.bilibili.com/video/av51574688
 一、安装（以Windows为例）
-Hugo官方github release下载
+Hugo官方GitHub release下载
 用 hugo version指令检查安装情况
 二、创建网站
 指令：hugo new site xxx
@@ -22,28 +22,34 @@ https://themes.gohugo.io/
 选择主题，根据说明clone主题。指令：git clone
 在themes目录下能看到下载好的主题
 四、本地启动
-指令：hugo server -t xxx &ndash;buildDrafts
+1.指令：hugo server -t xxx - -buildDrafts
 xxx为下载好要使用的主题名
-本地访问http://localhost:1313/ 可查看
+2.本地访问http://localhost:1313/ 可查看
 五、新建文章
-指令：hugo new post/xxx.md
+1.指令：hugo new post/xxx.md
 xxx为文章标题
-使用Visual Studio Code打开网站目录中的文章md文件并编辑文章标题、内容等，保存。
-再次预览，指令如步骤四：hugo server -t xxx &ndash;buildDrafts
-六、部署到github远端
+2.使用Visual Studio Code打开网站目录中的文章md文件并编辑文章标题、内容等，保存。
+3.再次预览，指令如步骤四：hugo server -t xxx - -buildDrafts
+六、部署到GitHub远端
 此处跳过仓库创建步骤
-指令：hugo &ndash;theme=xxx &ndash;baseUrl=“https://XXX.github.io” &ndash;buildDrafts
+1.完成对网页的所有更新后，将内容部署到远端
+指令：hugo - -theme=xxx - -baseUrl=“https://XXX.github.io” - -buildDrafts
 xxx为使用的主题名
-XXX为个人github仓库名
-git初始化
+XXX为个人GitHub仓库名
+2.git初始化（仅在第一次部署时操作）
 指令：git init
-将更新内容添加到git
-指令：git add *"/>
+3.将更新内容添加到git
+指令：git add *
+4.将添加的更新内容提交
+指令：git commit -m &ldquo;XXX&rdquo;
+XXX为提交操作的名称，更新操作被推上GitHub后会在GitHub仓库显示操作名称，可用于备注更新的内容。
+5.连接GitHub仓库（仅在第一次部署时操作）
+指令：git remote add origin https://github."/>
 
   <meta property="og:title" content="Second" />
 <meta property="og:description" content="https://www.bilibili.com/video/av51574688
 一、安装（以Windows为例）
-Hugo官方github release下载
+Hugo官方GitHub release下载
 用 hugo version指令检查安装情况
 二、创建网站
 指令：hugo new site xxx
@@ -53,23 +59,29 @@ https://themes.gohugo.io/
 选择主题，根据说明clone主题。指令：git clone
 在themes目录下能看到下载好的主题
 四、本地启动
-指令：hugo server -t xxx &ndash;buildDrafts
+1.指令：hugo server -t xxx - -buildDrafts
 xxx为下载好要使用的主题名
-本地访问http://localhost:1313/ 可查看
+2.本地访问http://localhost:1313/ 可查看
 五、新建文章
-指令：hugo new post/xxx.md
+1.指令：hugo new post/xxx.md
 xxx为文章标题
-使用Visual Studio Code打开网站目录中的文章md文件并编辑文章标题、内容等，保存。
-再次预览，指令如步骤四：hugo server -t xxx &ndash;buildDrafts
-六、部署到github远端
+2.使用Visual Studio Code打开网站目录中的文章md文件并编辑文章标题、内容等，保存。
+3.再次预览，指令如步骤四：hugo server -t xxx - -buildDrafts
+六、部署到GitHub远端
 此处跳过仓库创建步骤
-指令：hugo &ndash;theme=xxx &ndash;baseUrl=“https://XXX.github.io” &ndash;buildDrafts
+1.完成对网页的所有更新后，将内容部署到远端
+指令：hugo - -theme=xxx - -baseUrl=“https://XXX.github.io” - -buildDrafts
 xxx为使用的主题名
-XXX为个人github仓库名
-git初始化
+XXX为个人GitHub仓库名
+2.git初始化（仅在第一次部署时操作）
 指令：git init
-将更新内容添加到git
-指令：git add *" />
+3.将更新内容添加到git
+指令：git add *
+4.将添加的更新内容提交
+指令：git commit -m &ldquo;XXX&rdquo;
+XXX为提交操作的名称，更新操作被推上GitHub后会在GitHub仓库显示操作名称，可用于备注更新的内容。
+5.连接GitHub仓库（仅在第一次部署时操作）
+指令：git remote add origin https://github." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://jyi32852.github.io/post/second/" /><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2021-07-31T19:17:58&#43;08:00" />
@@ -81,7 +93,7 @@ git初始化
   <meta itemprop="name" content="Second">
 <meta itemprop="description" content="https://www.bilibili.com/video/av51574688
 一、安装（以Windows为例）
-Hugo官方github release下载
+Hugo官方GitHub release下载
 用 hugo version指令检查安装情况
 二、创建网站
 指令：hugo new site xxx
@@ -91,25 +103,31 @@ https://themes.gohugo.io/
 选择主题，根据说明clone主题。指令：git clone
 在themes目录下能看到下载好的主题
 四、本地启动
-指令：hugo server -t xxx &ndash;buildDrafts
+1.指令：hugo server -t xxx - -buildDrafts
 xxx为下载好要使用的主题名
-本地访问http://localhost:1313/ 可查看
+2.本地访问http://localhost:1313/ 可查看
 五、新建文章
-指令：hugo new post/xxx.md
+1.指令：hugo new post/xxx.md
 xxx为文章标题
-使用Visual Studio Code打开网站目录中的文章md文件并编辑文章标题、内容等，保存。
-再次预览，指令如步骤四：hugo server -t xxx &ndash;buildDrafts
-六、部署到github远端
+2.使用Visual Studio Code打开网站目录中的文章md文件并编辑文章标题、内容等，保存。
+3.再次预览，指令如步骤四：hugo server -t xxx - -buildDrafts
+六、部署到GitHub远端
 此处跳过仓库创建步骤
-指令：hugo &ndash;theme=xxx &ndash;baseUrl=“https://XXX.github.io” &ndash;buildDrafts
+1.完成对网页的所有更新后，将内容部署到远端
+指令：hugo - -theme=xxx - -baseUrl=“https://XXX.github.io” - -buildDrafts
 xxx为使用的主题名
-XXX为个人github仓库名
-git初始化
+XXX为个人GitHub仓库名
+2.git初始化（仅在第一次部署时操作）
 指令：git init
-将更新内容添加到git
-指令：git add *"><meta itemprop="datePublished" content="2021-07-31T19:17:58&#43;08:00" />
+3.将更新内容添加到git
+指令：git add *
+4.将添加的更新内容提交
+指令：git commit -m &ldquo;XXX&rdquo;
+XXX为提交操作的名称，更新操作被推上GitHub后会在GitHub仓库显示操作名称，可用于备注更新的内容。
+5.连接GitHub仓库（仅在第一次部署时操作）
+指令：git remote add origin https://github."><meta itemprop="datePublished" content="2021-07-31T19:17:58&#43;08:00" />
 <meta itemprop="dateModified" content="2021-07-31T19:17:58&#43;08:00" />
-<meta itemprop="wordCount" content="55">
+<meta itemprop="wordCount" content="84">
 <meta itemprop="keywords" content="" />
   <link href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/5.0.0/sanitize.min.css" rel="stylesheet">
   <link href="https://jyi32852.github.io/css/application.css" rel="stylesheet">
@@ -179,7 +197,7 @@ git初始化
         <div class="c-post__body">
           <p><a href="https://www.bilibili.com/video/av51574688">https://www.bilibili.com/video/av51574688</a></p>
 <p>一、安装（以Windows为例）</p>
-<p>Hugo官方github release下载</p>
+<p>Hugo官方GitHub release下载</p>
 <p>用 hugo version指令检查安装情况</p>
 <p>二、创建网站</p>
 <p>指令：hugo new site xxx</p>
@@ -189,23 +207,35 @@ git初始化
 <p>选择主题，根据说明clone主题。指令：git clone</p>
 <p>在themes目录下能看到下载好的主题</p>
 <p>四、本地启动</p>
-<p>指令：hugo server -t xxx &ndash;buildDrafts</p>
+<p>1.指令：hugo server -t xxx - -buildDrafts</p>
 <p>xxx为下载好要使用的主题名</p>
-<p>本地访问http://localhost:1313/ 可查看</p>
+<p>2.本地访问http://localhost:1313/ 可查看</p>
 <p>五、新建文章</p>
-<p>指令：hugo new post/xxx.md</p>
+<p>1.指令：hugo new post/xxx.md</p>
 <p>xxx为文章标题</p>
-<p>使用Visual Studio Code打开网站目录中的文章md文件并编辑文章标题、内容等，保存。</p>
-<p>再次预览，指令如步骤四：hugo server -t xxx &ndash;buildDrafts</p>
-<p>六、部署到github远端</p>
+<p>2.使用Visual Studio Code打开网站目录中的文章md文件并编辑文章标题、内容等，保存。</p>
+<p>3.再次预览，指令如步骤四：hugo server -t xxx - -buildDrafts</p>
+<p>六、部署到GitHub远端</p>
 <p>此处跳过仓库创建步骤</p>
-<p>指令：hugo &ndash;theme=xxx &ndash;baseUrl=“https://XXX.github.io” &ndash;buildDrafts</p>
+<p>1.完成对网页的所有更新后，将内容部署到远端</p>
+<p>指令：hugo - -theme=xxx - -baseUrl=“https://XXX.github.io” - -buildDrafts</p>
 <p>xxx为使用的主题名</p>
-<p>XXX为个人github仓库名</p>
-<p>git初始化</p>
+<p>XXX为个人GitHub仓库名</p>
+<p>2.git初始化（仅在第一次部署时操作）</p>
 <p>指令：git init</p>
-<p>将更新内容添加到git</p>
+<p>3.将更新内容添加到git</p>
 <p>指令：git add *</p>
+<p>4.将添加的更新内容提交</p>
+<p>指令：git commit -m &ldquo;XXX&rdquo;</p>
+<p>XXX为提交操作的名称，更新操作被推上GitHub后会在GitHub仓库显示操作名称，可用于备注更新的内容。</p>
+<p>5.连接GitHub仓库（仅在第一次部署时操作）</p>
+<p>指令：git remote add origin <a href="https://github.com/XXX/XXX.github.io.git">https://github.com/XXX/XXX.github.io.git</a></p>
+<p>XXX为GitHub用户名</p>
+<p>6.将更新推送到远端</p>
+<p>指令：git push -u origin master</p>
+<p>（第一次部署需要输入GitHub用户名和密码）</p>
+<p>7.通过访问https://XXX.github.io/ 可查看</p>
+<p>XXX为GitHub用户名</p>
 
         </div>
 
@@ -283,7 +313,7 @@ git初始化
   "datePublished": "2021-07-31",
   "dateModified": "2021-07-31",
   "url": "https:\/\/jyi32852.github.io\/post\/second\/",
-  "wordCount": "55",
+  "wordCount": "84",
   "author": {
     "@type": "Person",
     "name": ""
